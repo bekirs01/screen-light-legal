@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Screen Light: Night Lamp</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy</h1>
+      <p>Screen Light: Night Lamp, version 1.0.0. Effective 27 October 2026.</p>
+      <p>Developer: Bekir Sucikaran. Bundle ID: com.bekirsucikaran.screenlight. On the device the app is named Screen Light.</p>
+      <p class="lang"><a href="privacy-tr.html">Türkçe</a></p>
+    </header>
+    <nav>
+      <a href="index.html">Overview</a>
+      <a href="support.html">Support</a>
+    </nav>
+
+    <h2>What this app is</h2>
+    <p>Screen Light is a screen light. It runs on the phone or tablet you are holding. It has no account, no advertising, and no analytics. The app does not connect to a server operated for Screen Light, and it does not send the records below to the developer.</p>
+    <p>Bekir Sucikaran is the developer responsible for this app.</p>
+
+    <h2>Data stored on the device</h2>
+    <p>Screen Light keeps its records in the platform’s private app storage, using the operating system’s preferences store. They stay on the device.</p>
+    <ul>
+      <li>Preferences, under the key <code>lumaglow.preferences.v1</code>: haptic feedback, reduced motion, keep screen awake, the fade used for a new Night Lamp, and a language field. The shipping interface is English. Settings does not show a language chooser, and the running app does not apply a saved language.</li>
+      <li>Favorites, under the key <code>lumaglow.favorites.v1</code>: a name you choose (at most 40 characters), the time it was saved, and the light look (mode, colors, intensity, and related controls, including a chosen duration and fade). A favorite does not store a running or expired timer. Moving Message text is not saved, because that mode cannot be stored as a favorite.</li>
+      <li>On iPhone and iPad, a lighting session can write a brightness baseline under <code>lumaglow.display.baseline.v1</code> so a later launch can try to restore it. That value is a screen-brightness number, not an identity. It is removed after a successful restore.</li>
+    </ul>
+    <p>No sound pack is installed. There is no sound switch in Settings, and a sound preference is not stored.</p>
+    <p>Deleting a favorite removes it from the app. Uninstalling Screen Light removes the app’s private storage. If device backup is on, Apple or Google may already have included that storage in the backup belonging to your own Apple ID or Google account. Screen Light cannot read that backup.</p>
+
+    <h2>What leaves the device</h2>
+    <p>The application does not transmit or share:</p>
+    <ul>
+      <li>Name, email, phone number, contacts, photos, precise or coarse location, or advertising identifiers</li>
+      <li>Account credentials, payment details, or a purchase history of its own</li>
+      <li>Analytics, crash reports, diagnostics, or advertising data</li>
+      <li>The text you type into Moving Message</li>
+      <li>The favorite name or the lighting preferences listed above</li>
+    </ul>
+    <p>The app does not collect this information in order to send it off the device. Favorites and settings stay on the device. A store purchase, if you buy the download, is handled by Apple or Google. Screen Light has no StoreKit or Play Billing code and does not see your payment card.</p>
+    <p>Settings can open this Privacy Policy and the Support page in your browser, and can open your mail app if you choose to write. Those requests carry the page address or the support email address only. They do not attach favorites, settings, brightness, or message text.</p>
+    <p>The phone app does not include an advertising or analytics SDK. A dependency used for the browser build of a library can request a version file on the web. The iOS and Android apps do not use that path.</p>
+
+    <h2>Permissions and device behavior</h2>
+    <p>The release app does not request camera, microphone, photo, location, contacts, Bluetooth, or notification permission. It is not the camera flash and it does not turn on an LED torch.</p>
+    <ul>
+      <li>While a light is open, Screen Light is in front, and Keep screen awake is on, the app can keep the screen awake. That request is cleared when the light stops, when you leave the app, or when the preference is off. On Android this is a window flag, not a special permission prompt.</li>
+      <li>On iPhone and iPad, screen brightness is a system setting. Opening a light can change it, and the app tries to restore the level it saw when the session started. This is not a brightness above what the hardware already allows, and HDR headroom is not implemented.</li>
+      <li>On Android, brightness applies to Screen Light’s own window. The app does not change system brightness and does not ask for permission to modify system settings.</li>
+      <li>Haptic feedback, when you leave it on, uses a short system tap. It is not recorded.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Screen Light is a general utility. It is not a social network and it is not directed at children as a service that creates profiles. It does not knowingly collect personal information from anyone, including children.</p>
+
+    <h2>Changes</h2>
+    <p>If a later version starts to transmit or share data, this page will change before that version is shipped, and the store privacy answers will change with it. The date at the top is the date of this text.</p>
+
+    <h2>Contact</h2>
+    <p>Privacy questions: <a href="mailto:bekirsucikaran00@gmail.com">bekirsucikaran00@gmail.com</a>.</p>
+    <p>Help with the app is on the <a href="support.html">Support</a> page.</p>
+    <footer>This page describes how Screen Light 1.0.0 behaves. It is not a law-firm opinion.</footer>
+  </main>
+</body>
+</html>
